@@ -6,8 +6,8 @@
 @font-face {
   font-family: "OpenSans";
   src:
-    url("/FONTS/OpenSans-Bold.woff2") format("woff2"),
-    url("/FONTS/OpenSans-Bold.woff") format("woff");
+    url("FONTS/OpenSans-Bold.woff2") format("woff2"),
+    url("FONTS/OpenSans-Bold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
@@ -15,8 +15,8 @@
 @font-face {
   font-family: "OpenSans";
   src:
-    url("/FONTS/OpenSans-Regular.woff2") format("woff2"),
-    url("/FONTS/OpenSans-Regular.woff") format("woff");
+    url("FONTS/OpenSans-Regular.woff2") format("woff2"),
+    url("FONTS/OpenSans-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -44,7 +44,7 @@ body {
   left: 0;
   bottom: 0;
   position: absolute;
-  background-image: url("/IMG/banner-mobile.jpg");
+  background-image: url("IMG/banner-mobile.jpg");
   background-position: center;
   background-size: cover;
   z-index: -2;
@@ -442,7 +442,7 @@ main {
   width: 50%;
   height: 50%;
   background-repeat: no-repeat;
-  background-image: url("/SVG/search.svg");
+  background-image: url("SVG/search.svg");
   background-size: contain;
   z-index: 1;
 }
@@ -847,7 +847,7 @@ main {
 }
 
   .header::before {
-  background-image: url("/IMG/banner-bg-tablet.jpg");
+  background-image: url("IMG/banner-bg-tablet.jpg");
 }
 
 .company-logo {
@@ -1005,7 +1005,7 @@ main {
 }
 
 .header::before {
-  background-image: url("/IMG/banner-bg.jpg");
+  background-image: url("IMG/banner-bg.jpg");
 }
 
 .company-logo {
